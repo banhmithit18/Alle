@@ -40,7 +40,7 @@ namespace AdminAPI.Models.DBContext
 
         public DbSet<User> Users { get; set; }
 
-        public DbSet<VIP> VIPS { get; set; 
+        public DbSet<VIP> VIPS { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
